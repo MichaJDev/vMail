@@ -1,0 +1,16 @@
+name: vMail
+main: nl.michaj.vmail.Main
+version: 1.2
+description: vyx Mailing plugin
+author: MichaJDev
+depends: [JsonApi]
+commands:
+    mail:
+        description: use the mail command
+    spam:
+        description: use the spam command
+permissions:
+    vMail.mail:
+        description: use the mail command
+    vmail.spam:
+        description: use the Spam command!
